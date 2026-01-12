@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Full Name",
+      "fieldType": "TEXT",
+      "minLength": 2,
+      "maxLength": 50,
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 2,
+      "name": "Email",
+      "fieldType": "TEXT",
+      "minLength": 5,
+      "maxLength": 100,
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 3,
+      "name": "Phone Number",
+      "fieldType": "TEXT",
+      "minLength": 10,
+      "maxLength": 15,
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 4,
+      "name": "Bio",
+      "fieldType": "TEXT",
+      "minLength": 0,
+      "maxLength": 500,
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 6,
+      "name": "Gender",
+      "fieldType": "LIST",
+      "defaultValue": "",
+      "required": true,
+      "listOfValues1": [
+        "Male",
+        "Female",
+        "Others"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Love React?",
+      "fieldType": "RADIO",
+      "defaultValue": "",
+      "required": true,
+      "listOfValues1": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Newsletter Subscription",
+      "fieldType": "RADIO",
+      "defaultValue": "",
+      "required": false,
+      "listOfValues1": [
+        "Yes, subscribe me",
+        "No, thanks"
+      ]
+    }
+  ]
+}

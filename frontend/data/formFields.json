@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Full Name",
+      "fieldType": "TEXT",
+      "minLength": 1,
+      "maxLength": 100,
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 2,
+      "name": "Email",
+      "fieldType": "TEXT",
+      "minLength": 1,
+      "maxLength": 50,
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 6,
+      "name": "Gender",
+      "fieldType": "LIST",
+      "defaultValue": "",
+      "required": true,
+      "listOfValues1": [
+        "Male",
+        "Female",
+        "Others"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Country",
+      "fieldType": "LIST",
+      "defaultValue": "",
+      "required": true,
+      "listOfValues1": [
+        "United States",
+        "Canada",
+        "United Kingdom",
+        "Australia",
+        "India",
+        "Germany",
+        "France",
+        "Other"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Preferred Language",
+      "fieldType": "LIST",
+      "defaultValue": "",
+      "required": false,
+      "listOfValues1": [
+        "English",
+        "Spanish",
+        "French",
+        "German",
+        "Hindi",
+        "Chinese"
+      ]
+    }
+  ]
+}
